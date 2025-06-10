@@ -3,6 +3,9 @@
     margin: 0;
     font-family:sans-serif;
 }
+button{
+    cursor: pointer;
+}
 /* start */
 header{
 position: sticky;
@@ -267,6 +270,7 @@ margin: 20px auto;
 .Pricing div{
     width: 30%;
     float: left;
+    cursor: pointer;
 }
 .Pricing ul li{
    padding: 20px 70px;
@@ -394,6 +398,7 @@ margin-bottom: 50px;
     margin-bottom: 25px;
     padding: 13px;
     font-size: 17px;
+    outline: none;
 }
 #texta{
     width: 40%;
@@ -406,7 +411,7 @@ margin-bottom: 50px;
     font-size: 17px;
     color: azure;
     background-color:#ff8b38;
-    border-radius: 7%;
+    border-radius:20px;
 }
 .footer{
     background-color: black;
@@ -424,4 +429,7 @@ margin-bottom: 50px;
     font-size: 12px;
 margin-bottom: 10px;
 color:#bba4a4;
+}
+input{
+    outline: 0;
 }

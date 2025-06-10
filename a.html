@@ -292,10 +292,22 @@
     <i class="fa-brands fa-square-whatsapp"></i>
     <i class="fa-solid fa-wifi"></i>
     <p>© 2015 Axure Themes</p>
-    <p>Free Template by FreeTemplates.pro</p>
+    <p>Developed by Sleem Hashem</p>
 </section>
-    </body>
-    
-    </html>
+ 
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".tabsLeft button").click(function(){
+                $(this).toggleClass("bg-orange")
+                $(".tabsLeft button").not(this).removeClass("bg-orange")
+            })
+            $(".Pricing div").click(function(){
+                $(this).css("transform","scale(1.1)")
+                $(".Pricing div").not(this).css("transform","scale(1)")
+            })
+
+        })
+    </script>
 </body>
 </html>
